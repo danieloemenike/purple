@@ -1,3 +1,11 @@
+
+
+![1692738595210](image/README/1692738595210.png)
+
+
+
+#### Libraries Used: Zod for Form Validation, React Hook Form, Shadcn, React Paginate, Radix Ui
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

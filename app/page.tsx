@@ -1,4 +1,4 @@
-'use client'
+
 import Banner from '@/components/Banner'
 import BlogPosts from '@/components/Blog/BlogPosts'
 import RecentBlog from '@/components/Blog/RecentBlog'

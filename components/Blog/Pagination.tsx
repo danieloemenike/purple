@@ -1,3 +1,4 @@
+'use client'
 import React, { useState } from 'react';
 import ReactPaginate from 'react-paginate';
 import IconPrev from "@/public/assets/Iconprev.png"

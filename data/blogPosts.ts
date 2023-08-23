@@ -203,8 +203,8 @@ export const RecentBlogPostsSecondary = [
             },
             {
                 name: "Research",
-                color: "#3538CD",
-                backgroundColor: "#EEF4FF"
+                color: "#C11574",
+                backgroundColor: "#FDF2FA"
             },
          
             
@@ -222,8 +222,8 @@ export const RecentBlogPostsSecondary = [
         category: [
             {
                 name: " Design ",
-                color: "#ECFDF3",
-                backgroundColor: " #027A48"
+                backgroundColor: "#ECFDF3",
+                color: " #027A48"
                 
             },
             {

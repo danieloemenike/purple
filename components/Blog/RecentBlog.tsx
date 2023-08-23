@@ -11,11 +11,11 @@ export default function RecentBlog() {
                 <h2 className=  "text-[24px] text-[#101828]leading-[32px] font-semibold mb-[32px] leading-[32px]" >
                     Recent blog posts
                 </h2>
-                <main className="grid grid-cols-2 gap-x-[32px]">
+                <main className="grid grid-flow-row auto-rows-max md:grid-cols-2 md:gap-x-[32px] space-y-4">
                 { RecentBlogPosts.map(post => (
                     <BlogPostCard post = {post}  />
                 )) }
-                    <div className="flex flex-col justify-between">
+                    <div className="md:flex md:flex-col md:justify-between gap-y-4 ">
                 { RecentBlogPostsSecondary.map(post => (
                     <SideBlogPostCard post = {post} key={post.id}  />
                 )) }

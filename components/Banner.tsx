@@ -28,11 +28,11 @@ function Banner({ }: Props) {
                   <h2 className={cn ('text-[#6941C6] text-[14px] leading-6 font-semibold', montserrat.className )}> OUR BLOG </h2>
 
               </div>
-              <div className='mb-[16px] w-[617px]'>
-                  <h3 className={cn ('text-[#0D0C22] text-[56px] leading-[96.5%] font-semibold tracking-[-4px]', atypfont.className)}> Stories and interviews </h3>
+              <div className='md:mb-[16px] md:w-[617px]'>
+                  <h3 className={cn ('text-[#0D0C22] md:text-[56px] text-[46px] leading-[96.5%] font-semibold md:tracking-[-4px] tracking-[-2px] mb-[12px]', atypfont.className)}> Stories and interviews </h3>
               </div>
-              <div className='w-[559px] mb-[16px]'>
-                  <p className ={ cn( "text-[18px] text-[#6E6D7A] font-normal", montserrat.className)}>
+              <div className='md:w-[559px] mb-[16px]'>
+                  <p className ={ cn( "md:text-[18px] text-[16px] text-[#6E6D7A] font-normal", montserrat.className)}>
                       Subscribe to learn about new product features, the latest in technology, solutions, and updates.
                   </p>
               </div>

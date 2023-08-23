@@ -32,8 +32,8 @@ export default function BlogPostCard({ post }: blogProps) {
                     <h4 className="text-[14px] font-semibold text-[#8019B0] leading-[20px]"> { post.author } <span> • </span>  { post.date} </h4>
                 
                 </div>
-                <div className="flex items-center  justify-between my-[12px]">
-                    <h3 className="font-semibold text-[24px] leading-[32px]"> { post.Title }
+                <div className="flex items-center  justify-between md:my-[12px]">
+                    <h3 className="font-semibold md:text-[24px] md:leading-[32px] text-[18px] leading-[28px]"> { post.Title }
                     </h3>
                     <div className="w-[24px] h-[24px]">   
                         <Image src={ icon } alt="arrow-up-icon"  className="bg-white h-[10px] w-[10px] "  />

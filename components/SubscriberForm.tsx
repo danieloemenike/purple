@@ -49,9 +49,9 @@ export default function SubscriberForm() {
 
    
       <Form { ...form } >
-     <div className="w-[495px] h-[76px] mt-[64px]">
+     <div className="md:w-[495px] h-[76px] mt-[64px]">
           
-        <form onSubmit={ form.handleSubmit(onSubmit) } className=" w-full flex space-x-4 ">
+        <form onSubmit={ form.handleSubmit(onSubmit) } className=" w-full md:flex md:space-x-4 ">
 
 
         
@@ -68,7 +68,7 @@ export default function SubscriberForm() {
               </FormDescription>
               <FormMessage />
             </FormItem>
-          )}
+          )}  
             />
         
 

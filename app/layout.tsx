@@ -24,7 +24,7 @@ export default function RootLayout({
      
       <body className={` ${inter.className} `}>
         <Header />
-        <main className = "mr-[108px] ml-[141px]">
+        <main className = "md:mr-[108px] md:ml-[141px] mx-auto ml-[20px] mr-[20px]">
         { children }
         </main>
       </body>

@@ -44,15 +44,15 @@ export default function Header({ }: Props) {
     
   return (
       <>
-          <header className="flex pr-[162px] pl-[116px]  w-full justify-between items-center h-[70px] border-b-[#C8C8C8]-[32%] border-solid border-2">
+          <header className="flex md:pr-[162px] md:pl-[116px]  w-full md:justify-between md:items-center h-[70px] border-b-[#C8C8C8]-[32%] border-solid border-2">
               
                 <div className="pt-4">
                     <Image src={Logo} alt="Purple Logo" priority />
               </div>
-              <nav className='flex  '>
+              <nav className='md:flex hidden '>
                   { menuList.map(menu => (
                      
-                      <Link key={menu.id} href={ menu.path } className={`text-${menu.color} p-[32px] text-sm font-medium `}>
+                      <Link key={menu.id} href={ menu.path } className={`text-${menu.color} md:p-[32px] text-sm font-medium `}>
                           
                           {menu.title}
                         </Link>

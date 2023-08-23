@@ -11,7 +11,7 @@ export default function BlogPosts() {
                 <h2 className = "text-[24px] font-semibold leading-[32px] text-[#101828]" > All blog posts </h2>
          
                 </div>
-            <div className="grid grid-cols-3 mx-auto w-full  gap-y-[48px] gap-x-[32px] ">
+            <div className="grid md:grid-cols-3 mx-auto w-full  gap-y-[48px] md:gap-x-[32px] ">
                
                 { blogPosts.map(post => (
                     <BlogPostCard post = {post} key={post.id}  />
